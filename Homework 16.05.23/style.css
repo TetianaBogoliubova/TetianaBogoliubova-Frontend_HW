@@ -1,0 +1,22 @@
+h1 {
+    font-size: 40px;
+}
+img {
+    width: 500px;
+}
+p {
+    color: aliceblue;
+}
+div {
+background-color: #34495E;
+padding: 21px;
+border-radius: 20px;
+}
+.post-1 {
+    margin-bottom: 17px;
+    
+}
+.post-2 {
+    margin-bottom: 17px;
+}
+
