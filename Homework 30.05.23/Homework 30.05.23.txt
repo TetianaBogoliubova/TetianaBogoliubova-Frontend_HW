@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="item item1"></div>
+      <div class="item item2"></div>
+      <div class="item item3"></div>
+    </section>
+  </body>
+</html>
+
+CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -200px;
+}
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.item2 {
+  background-color: green;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+  transition: 2s;
+}
+.item2:hover {
+  transform: scale(1.5) rotate(-45deg);
+}
+.item3 {
+  position: absolute;
+  background-color: blue;
+  top: 80px;
+  left: 80px;
+}
