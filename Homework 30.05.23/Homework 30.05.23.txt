@@ -54,3 +54,12 @@ section {
   top: 80px;
   left: 80px;
 }
+
+
+
+.item3 {
+  position: absolute;
+  background-color: blue;
+  top: 80px;
+  left: 80px;
+}
