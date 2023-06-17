@@ -76,41 +76,39 @@ function printSumma() {
 console.log(printSumma());
 
 // 7. Написать функцию, которая принимает товары (массив объектов) и возвращает строку `Самый дорогой товар <НАЗВАНИЕ> стоит <NN> EUR`
-// const list = [
-//   {
-// name: "Iphone 13",
-// price: 10000
-//   },
-//   {
-//     name: "Iphone 14",
-//     price: 20000
-//   },
-//   {
-//     name: "Iphone 15",
-// price: 30000
-//   }
-// ];
-// function print_max_cost(list) {
-//   let max;
-//     let min = list[0].price;
-//     for(let i = 0; i < list.length; i++){
-//         if((list[i].price) > min){
-//             min = list[i].price; 
-//         } else {
-//             max = list[i].price;
-             
-//         }
-           
-//     }
-//     //return max;
-//     console.log(max) 
-// }
-// console.log(print_max_cost(list));
-//   for (let i = 0; i < array.length; i++) {
-//   let max = Math.max.apply(array[i].price);
-//   console.log(max)
-//   }
-  
+const list = [
+  {
+    name: "Iphone 13",
+    price: 10000,
+  },
+  {
+    name: "Iphone 14",
+    price: 20000,
+  },
+  {
+    name: "Iphone 15",
+    price: 30000,
+  },
+];
+function print_max_cost(list) {
+  let max;
+  let min = list[0].price;
+  for (let i = 0; i < list.length; i++) {
+    if (list[i].price > min) {
+      min = list[i].price;
+    } else {
+      max = list[i].price;
+    }
+  }
+  //return max;
+  console.log(max);
+}
+console.log(print_max_cost(list));
+for (let i = 0; i < array.length; i++) {
+  let max = Math.max.apply(array[i].price);
+  console.log(max);
+}
+
 // }
 // print_max_cost([1000, 2000, 3000])
 //         let max = Math.max.apply(null, array);
@@ -137,4 +135,3 @@ function calc_max_damage(player) {
   if (players[0].damage > players[1].damage)
     console.log(`Больше шансов у ${players[1].username}`);
 }
-
