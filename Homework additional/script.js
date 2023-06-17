@@ -109,7 +109,6 @@ for (let i = 0; i < array.length; i++) {
   console.log(max);
 };
 
-// }
 // print_max_cost([1000, 2000, 3000])
 //         let max = Math.max.apply(null, array);
 //         console.log(max)
@@ -135,3 +134,4 @@ function calc_max_damage(player) {
   if (players[0].damage > players[1].damage)
     console.log(`Больше шансов у ${players[1].username}`);
 };
+// test
