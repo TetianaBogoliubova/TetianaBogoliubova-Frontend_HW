@@ -119,38 +119,22 @@ console.log(printSumma());
 
 // 8. Написать программу, которая описывает массив двух игроков, со след/полями: `имя_пользователя`, `ущерб` и сравнивает их `ущерб` между собой (у кого шансов на победу больше)
 
-// function calc_max_damage(player) {
-//   let players = [
-//     {
-//       username: "Player_1",
-//       damage: 75,
-//     },
-//     {
-//       username: "Player_2",
-//       damage: 50,
-//     },
-//   ];
+function calc_max_damage(player) {
+  let players = [
+    {
+      username: "Player_1",
+      damage: 75,
+    },
+    {
+      username: "Player_2",
+      damage: 50,
+    },
+  ];
 
-//   if (players[0].damage < players[1].damage) {
-//     console.log(`Больше шансов у ${players[0].username}`);
-//   }
-//   if (players[0].damage > players[1].damage)
-//     console.log(`Больше шансов у ${players[1].username}`);
-// }
-
-
-var list = [34, 1, 529, -78, 89.7, 1243, 2000, 300]; 
-function maxElement (list){
-    let max;
-    let min = list[0];
-    for(let i = 0; i < list.length; i++){
-        if((list[i]) < min){
-            min = list[i]; 
-        } else {
-            max = list[i];
-        }
-    }
-    return max;
+  if (players[0].damage < players[1].damage) {
+    console.log(`Больше шансов у ${players[0].username}`);
+  }
+  if (players[0].damage > players[1].damage)
+    console.log(`Больше шансов у ${players[1].username}`);
 }
 
-console.log(maxElement(list));
