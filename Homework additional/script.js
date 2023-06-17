@@ -14,7 +14,7 @@ function title() {
   if (num % 10 == 8) {
     console.log(num);
   }
-}
+};
 
 // 3. Описать массив (набор) трех пользователей со след/характеристиками возраст, з/п, email и вывести возраст последнего (в наборе) пользователя.
 function title() {
@@ -36,7 +36,7 @@ function title() {
     },
   ];
   console.log(users[2].age);
-}
+};
 
 // 4. Напишите функцию, которая получает массив различных чисел (положительных и отрицательных) и возвращает массив отрицательных чисел
 
@@ -48,7 +48,7 @@ function printArrayElements(array) {
       console.log(arr);
     }
   }
-}
+};
 printArrayElements([2, 4, -6, -7, 9]);
 
 // 5. Запросить у сотрудника (логичистической компании) `ко-во часов полета` транспортного средства (самолета) и вывести время, в которое он вернется назад
@@ -58,7 +58,7 @@ function title() {
   let sum = flight1 + flight2;
   let calc = sum % 24;
   console.log(`Время Вашего возвращения ${calc}.00`);
-}
+};
 
 // 6. Написать функцию, которая принимает два числа в качестве диапазона и возвращает сумму нечетных чисел в указанном диапазоне
 
@@ -72,7 +72,7 @@ function printSumma() {
     }
   }
   return sum;
-}
+};
 console.log(printSumma());
 
 // 7. Написать функцию, которая принимает товары (массив объектов) и возвращает строку `Самый дорогой товар <НАЗВАНИЕ> стоит <NN> EUR`
@@ -102,12 +102,12 @@ function print_max_cost(list) {
   }
   //return max;
   console.log(max);
-}
+};
 console.log(print_max_cost(list));
 for (let i = 0; i < array.length; i++) {
   let max = Math.max.apply(array[i].price);
   console.log(max);
-}
+};
 
 // }
 // print_max_cost([1000, 2000, 3000])
@@ -134,4 +134,4 @@ function calc_max_damage(player) {
   }
   if (players[0].damage > players[1].damage)
     console.log(`Больше шансов у ${players[1].username}`);
-}
+};
