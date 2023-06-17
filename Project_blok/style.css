@@ -1,0 +1,52 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blok1 {
+    display: flex;
+    background-color: darkkhaki;
+    justify-content: center;
+  
+    margin-bottom: 30px;
+}
+.item1 {
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    margin: 10px;
+}
+.blok2 {
+    display: flex;
+    background-color: darkkhaki;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.item2 {
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    margin: 10px;
+}
+.blok3 {
+    display: flex;
+    background-color: darkkhaki;
+    justify-content: center;  
+}
+.item3 {
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    margin: 10px; 
+    width: calc(100vw / 3);
+}
+.blok4 {
+    display: flex;
+    background-color: darkkhaki;
+    justify-content: center;
+  
+
+}
+
+
+
