@@ -1,6 +1,5 @@
-Homeworks_Frontend
-Список
-Homework 05.06.23
-ссылка_2
-ссылка_2
-ссылка_2
+### Репо по GenTech
+
+#### Список
+- [Homework 05.06.23](https://google.de)
+- [ссылка_2](https://google.de)
