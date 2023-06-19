@@ -4,3 +4,5 @@
 #### Список
 - [Homework 05.06.23](Homework 05.06.23/script.js)
 - [ссылка_2](https://google.de)
+- [ссылка_2](https://google.de)
+- [ссылка_2](https://google.de)
