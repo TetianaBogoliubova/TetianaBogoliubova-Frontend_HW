@@ -18,5 +18,5 @@
 - [Homework_HTML_blok](https://github.com/TetianaBogoliubova/TetianaBogoliubova-Frontend_HW/blob/master/Project_blok/index.html
 )
 - [Homework_Pages_hobby](https://tetianabogoliubova.github.io/TetianaBogoliubova-Frontend_HW/Project_hobby/index.html)
-- [Homework_Style_hobby](https://tetianabogoliubova.github.io/TetianaBogoliubova-Frontend_HW/Homework%2007.06.23/script.js) 
+- [Homework_Style_hobby](https://github.com/TetianaBogoliubova/TetianaBogoliubova-Frontend_HW/blob/master/Project_hobby/style.css) 
 - [Homework 07.06.23](https://tetianabogoliubova.github.io/TetianaBogoliubova-Frontend_HW/Homework%2007.06.23/script.js)
